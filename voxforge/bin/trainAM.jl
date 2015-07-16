@@ -19,11 +19,11 @@
 #
 ###############################################################################
 
-require("../bin/scripts/prompts2wlist.jl")
-require("../bin/scripts/prompts2mlf.jl")
-require("../bin/scripts/mktrihed.jl")
-require("../bin/scripts/mkclscript.jl")
-require("../bin/scripts/fixfulllist.jl")
+require("../bin/prompts2wlist.jl")
+require("../bin/prompts2mlf.jl")
+require("../bin/mktrihed.jl")
+require("../bin/mkclscript.jl")
+require("../bin/fixfulllist.jl")
 
 function htkinit() 
   if isdir("./acoustic_model_files")

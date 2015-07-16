@@ -32,7 +32,7 @@ Created lattice with 15 nodes / 14 arcs from label file
 silence DIAL SIX SIX SEVEN SEVEN EIGHT EIGHT NINE NINE OH OH ZERO ZERO silence  ==  [948 frames] -55.0241 [Ac=-52162.9 LM=0.0] (Act=8.9)
 Aligning File: ../train/mfcc/sample6.mfc
 Created lattice with 8 nodes / 7 arcs from label file
-silence PHONE STEVE YOUNG CALL STEVE YOUNG silence  ==  [479 frames] -54.6432 [Ac=-26174.1 LM=0.0] (Act=6.3)
+silence PHONE STEVE YOUNG CALL STEVE YOUNG silence  ==  [479 frames] -54.6433 [Ac=-26174.1 LM=0.0] (Act=6.3)
 Aligning File: ../train/mfcc/sample7.mfc
 Created lattice with 10 nodes / 9 arcs from label file
 silence PHONE STEVE CALL STEVE PHONE YOUNG CALL YOUNG silence  ==  [636 frames] -53.5544 [Ac=-34060.6 LM=0.0] (Act=6.7)
@@ -44,7 +44,7 @@ Created lattice with 7 nodes / 6 arcs from label file
 silence MEASURE LEISURE AND LEISURE MEASURE silence  ==  [434 frames] -58.5524 [Ac=-25411.8 LM=0.0] (Act=10.0)
 Aligning File: ../train/mfcc/sample10.mfc
 Created lattice with 7 nodes / 6 arcs from label file
-silence COMPLAIN CHAMPLAIN AIRPLANE ELAINE EXPLAIN silence  ==  [602 frames] -55.6190 [Ac=-33482.7 LM=0.0] (Act=6.9)
+silence COMPLAIN CHAMPLAIN AIRPLANE ELAINE EXPLAIN silence  ==  [602 frames] -55.6190 [Ac=-33482.6 LM=0.0] (Act=6.9)
 Aligning File: ../train/mfcc/sample11.mfc
 Created lattice with 7 nodes / 6 arcs from label file
 silence BOOKENDS KENNEL KENNETH KENYA WEEKEND silence  ==  [570 frames] -54.5752 [Ac=-31107.8 LM=0.0] (Act=10.3)
@@ -56,7 +56,7 @@ Created lattice with 8 nodes / 7 arcs from label file
 silence GATEWAY GATORADE GAZEBO AFGHAN AGAINST AGATHA silence  ==  [713 frames] -55.4062 [Ac=-39504.7 LM=0.0] (Act=8.4)
 Aligning File: ../train/mfcc/sample14.mfc
 Created lattice with 6 nodes / 5 arcs from label file
-silence ABALON ABDOMINALS BODY ABOLISH silence  ==  [511 frames] -55.1140 [Ac=-28163.3 LM=0.0] (Act=6.9)
+silence ABALON ABDOMINALS BODY ABOLISH silence  ==  [511 frames] -55.1140 [Ac=-28163.2 LM=0.0] (Act=6.9)
 Aligning File: ../train/mfcc/sample15.mfc
 Created lattice with 6 nodes / 5 arcs from label file
 silence ABOUNDING ABOUT ACCOUNT ALLENTOWN silence  ==  [479 frames] -57.0590 [Ac=-27331.3 LM=0.0] (Act=9.3)
@@ -68,7 +68,7 @@ Created lattice with 6 nodes / 5 arcs from label file
 silence ALGORITHM ALTHOUGH ALTOGETHER ANOTHER silence  ==  [447 frames] -54.9024 [Ac=-24541.4 LM=0.0] (Act=6.8)
 Aligning File: ../train/mfcc/sample18.mfc
 Created lattice with 6 nodes / 5 arcs from label file
-silence BATTLE BEATLE LITTLE METAL silence  ==  [421 frames] -55.1430 [Ac=-23215.2 LM=0.0] (Act=10.4)
+silence BATTLE BEATLE LITTLE METAL silence  ==  [421 frames] -55.1431 [Ac=-23215.2 LM=0.0] (Act=10.4)
 Aligning File: ../train/mfcc/sample19.mfc
 Created lattice with 6 nodes / 5 arcs from label file
 silence BITTEN BLATANT BRIGHTEN BRITAIN silence  ==  [427 frames] -54.4508 [Ac=-23250.5 LM=0.0] (Act=9.6)
@@ -80,7 +80,7 @@ Created lattice with 6 nodes / 5 arcs from label file
 silence BUSBOYS CHOICE COILS COIN silence  ==  [491 frames] -57.9957 [Ac=-28475.9 LM=0.0] (Act=7.8)
 Aligning File: ../train/mfcc/sample22.mfc
 Created lattice with 6 nodes / 5 arcs from label file
-silence COLLECTION COLORATION COMBINATION COMMERCIAL silence  ==  [534 frames] -58.3485 [Ac=-31158.1 LM=0.0] (Act=6.8)
+silence COLLECTION COLORATION COMBINATION COMMERCIAL silence  ==  [534 frames] -58.3484 [Ac=-31158.1 LM=0.0] (Act=6.8)
 Aligning File: ../train/mfcc/sample23.mfc
 Created lattice with 6 nodes / 5 arcs from label file
 silence MIDDLE NEEDLE POODLE SADDLE silence  ==  [413 frames] -58.2089 [Ac=-24040.3 LM=0.0] (Act=9.5)

@@ -22,7 +22,7 @@ Pruning-On[250.0 150.0 1000.0]
  Processing Data: sample1.mfc; Label sample1.lab
  Utterance prob per frame = -6.143796e+01
  Processing Data: sample2.mfc; Label sample2.lab
- Utterance prob per frame = -6.119791e+01
+ Utterance prob per frame = -6.119792e+01
  Processing Data: sample3.mfc; Label sample3.lab
  Utterance prob per frame = -6.080930e+01
  Processing Data: sample4.mfc; Label sample4.lab
@@ -36,7 +36,7 @@ Pruning-On[250.0 150.0 1000.0]
  Processing Data: sample8.mfc; Label sample8.lab
  Utterance prob per frame = -6.273951e+01
  Processing Data: sample9.mfc; Label sample9.lab
- Utterance prob per frame = -6.405136e+01
+ Utterance prob per frame = -6.405135e+01
  Processing Data: sample10.mfc; Label sample10.lab
  Utterance prob per frame = -6.437158e+01
  Processing Data: sample11.mfc; Label sample11.lab
@@ -46,11 +46,11 @@ Pruning-On[250.0 150.0 1000.0]
  Processing Data: sample13.mfc; Label sample13.lab
  Utterance prob per frame = -6.389159e+01
  Processing Data: sample14.mfc; Label sample14.lab
- Utterance prob per frame = -6.415448e+01
+ Utterance prob per frame = -6.415449e+01
  Processing Data: sample15.mfc; Label sample15.lab
  Utterance prob per frame = -6.319430e+01
  Processing Data: sample16.mfc; Label sample16.lab
- Utterance prob per frame = -6.321493e+01
+ Utterance prob per frame = -6.321494e+01
  Processing Data: sample17.mfc; Label sample17.lab
  Utterance prob per frame = -6.336136e+01
  Processing Data: sample18.mfc; Label sample18.lab
@@ -60,7 +60,7 @@ Pruning-On[250.0 150.0 1000.0]
  Processing Data: sample20.mfc; Label sample20.lab
  Utterance prob per frame = -6.531214e+01
  Processing Data: sample21.mfc; Label sample21.lab
- Utterance prob per frame = -6.536789e+01
+ Utterance prob per frame = -6.536788e+01
  Processing Data: sample22.mfc; Label sample22.lab
  Utterance prob per frame = -6.656639e+01
  Processing Data: sample23.mfc; Label sample23.lab
@@ -70,7 +70,7 @@ Pruning-On[250.0 150.0 1000.0]
  Processing Data: sample25.mfc; Label sample25.lab
  Utterance prob per frame = -6.513110e+01
  Processing Data: sample26.mfc; Label sample26.lab
- Utterance prob per frame = -6.460818e+01
+ Utterance prob per frame = -6.460817e+01
  Processing Data: sample27.mfc; Label sample27.lab
  Utterance prob per frame = -6.623354e+01
  Processing Data: sample28.mfc; Label sample28.lab
