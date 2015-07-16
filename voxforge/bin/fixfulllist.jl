@@ -22,7 +22,6 @@ function fixfulllist(in_fulllist, out_fulllist)
   in_fulllist_arr=open(readlines, in_fulllist) # automatically closes file handle
 
   out_fulllist_fh=open(out_fulllist,"w")
-die
   for phoneln=in_fulllist_arr
     phone=chomp(phoneln)
     if ! haskey(seen,phone) # remove duplicate monophone/triphone names
