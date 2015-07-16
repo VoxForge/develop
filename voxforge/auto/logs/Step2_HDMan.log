@@ -1,0 +1,10 @@
+HDMan -A -D -T 1 -m -w ./interim_files/wlist -e ./input_files -n ./interim_files/monophones1 -i -l logs/Step2_HDMan_log ./interim_files/dict ../lexicon/VoxForgeDict.txt 
+
+No HTK Configuration Parameters Set
+
+Output dictionary ./interim_files/dict opened 
+Source dictionary ../lexicon/VoxForgeDict.txt opened 
+Dictionary ./interim_files/dict created - 114 words processed, 0 missing
+
+No HTK Configuration Parameters Set
+

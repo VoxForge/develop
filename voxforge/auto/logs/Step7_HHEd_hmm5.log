@@ -1,0 +1,27 @@
+HHEd -A -D -T 1 -H ./interim_files/hmm4/macros -H ./interim_files/hmm4/hmmdefs -M ./interim_files/hmm5 ./input_files/sil.hed ./interim_files/monophones1 
+
+No HTK Configuration Parameters Set
+
+HHEd
+ 41/41 Models Loaded [5 states max, 1 mixes max]
+
+AT 2 4 0.200 {}
+ Adding transitions to transP
+ AT: 1 transP matrices adjusted
+
+AT 4 2 0.200 {}
+ Adding transitions to transP
+ AT: 1 transP matrices adjusted
+
+AT 1 3 0.300 {}
+ Adding transitions to transP
+ AT: 1 transP matrices adjusted
+
+TI silst {}
+ Tie items
+
+Saving new HMM files ...
+Edit Complete
+
+No HTK Configuration Parameters Set
+

@@ -1,0 +1,101 @@
+HERest -A -D -T 1 -C ./input_files/config -I ./interim_files/aligned.mlf -t 250.0 150.0 3000.0 -S ./interim_files/train.scp -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -M ./interim_files/hmm8 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+HERest  ML Updating: Transitions Means Variances 
+
+ System is SHARED
+41 Logical/41 Physical Models Loaded, VecSize=25
+2 MMF input files
+Pruning-On[250.0 150.0 3000.0]
+ Processing Data: sample1.mfc; Label sample1.lab
+ Utterance prob per frame = -4.991569e+01
+ Processing Data: sample2.mfc; Label sample2.lab
+ Utterance prob per frame = -4.946956e+01
+ Processing Data: sample3.mfc; Label sample3.lab
+ Utterance prob per frame = -5.027322e+01
+ Processing Data: sample4.mfc; Label sample4.lab
+ Utterance prob per frame = -5.274531e+01
+ Processing Data: sample5.mfc; Label sample5.lab
+ Utterance prob per frame = -5.117280e+01
+ Processing Data: sample6.mfc; Label sample6.lab
+ Utterance prob per frame = -5.086942e+01
+ Processing Data: sample7.mfc; Label sample7.lab
+ Utterance prob per frame = -4.946237e+01
+ Processing Data: sample8.mfc; Label sample8.lab
+ Utterance prob per frame = -4.805596e+01
+ Processing Data: sample9.mfc; Label sample9.lab
+ Utterance prob per frame = -5.425331e+01
+ Processing Data: sample10.mfc; Label sample10.lab
+ Utterance prob per frame = -5.192217e+01
+ Processing Data: sample11.mfc; Label sample11.lab
+ Utterance prob per frame = -5.008031e+01
+ Processing Data: sample12.mfc; Label sample12.lab
+ Utterance prob per frame = -5.035402e+01
+ Processing Data: sample13.mfc; Label sample13.lab
+ Utterance prob per frame = -5.234201e+01
+ Processing Data: sample14.mfc; Label sample14.lab
+ Utterance prob per frame = -5.142734e+01
+ Processing Data: sample15.mfc; Label sample15.lab
+ Utterance prob per frame = -5.260430e+01
+ Processing Data: sample16.mfc; Label sample16.lab
+ Utterance prob per frame = -5.033904e+01
+ Processing Data: sample17.mfc; Label sample17.lab
+ Utterance prob per frame = -5.052112e+01
+ Processing Data: sample18.mfc; Label sample18.lab
+ Utterance prob per frame = -5.086238e+01
+ Processing Data: sample19.mfc; Label sample19.lab
+ Utterance prob per frame = -5.007693e+01
+ Processing Data: sample20.mfc; Label sample20.lab
+ Utterance prob per frame = -5.436597e+01
+ Processing Data: sample21.mfc; Label sample21.lab
+ Utterance prob per frame = -5.436689e+01
+ Processing Data: sample22.mfc; Label sample22.lab
+ Utterance prob per frame = -5.588490e+01
+ Processing Data: sample23.mfc; Label sample23.lab
+ Utterance prob per frame = -5.567399e+01
+ Processing Data: sample24.mfc; Label sample24.lab
+ Utterance prob per frame = -5.576524e+01
+ Processing Data: sample25.mfc; Label sample25.lab
+ Utterance prob per frame = -5.355833e+01
+ Processing Data: sample26.mfc; Label sample26.lab
+ Utterance prob per frame = -5.369765e+01
+ Processing Data: sample27.mfc; Label sample27.lab
+ Utterance prob per frame = -5.376843e+01
+ Processing Data: sample28.mfc; Label sample28.lab
+ Utterance prob per frame = -5.125531e+01
+ Processing Data: sample29.mfc; Label sample29.lab
+ Utterance prob per frame = -5.189158e+01
+ Processing Data: sample30.mfc; Label sample30.lab
+ Utterance prob per frame = -5.134398e+01
+ Processing Data: sample31.mfc; Label sample31.lab
+ Utterance prob per frame = -4.944826e+01
+Total 1 floored variance elements in 1 different mixes
+Saving hmm's to dir ./interim_files/hmm8
+Reestimation complete - average log prob per frame = -5.154292e+01
+     - total frames seen          = 1.820000e+04
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

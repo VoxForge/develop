@@ -1,0 +1,39 @@
+HCompV -A -D -T 1 -C ./input_files/config -f 0.01 -m -S ./interim_files/train.scp -M ./interim_files/hmm0 input_files/proto 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Calculating Fixed Variance
+  HMM Prototype: input_files/proto
+  Segment Label: None
+  Num Streams  : 1
+  UpdatingMeans: Yes
+  Target Direct: ./interim_files/hmm0
+18200 speech frames accumulated
+Updating HMM Means and Covariances
+Output written to directory ./interim_files/hmm0
+Var floor macros output to file ./interim_files/hmm0/vFloors
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+
