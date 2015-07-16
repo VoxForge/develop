@@ -1,0 +1,27 @@
+# compile: clear && julia ../bin/mkdfa_vf.jl grammar/linux/firefox/firefox
+
+% NS_B
+<s>
+
+% NS_E
+</s>
+
+% FILLER
+UH []
+WELL []
+HUM []
+
+% VOXFORGE
+VOXFORGE [COM]
+
+% VOXFORGE_CAT
+HOME [firefox -remote openurl(http://www.voxforge.org)]
+READ [firefox -remote openurl(http://www.voxforge.org/home/read)]
+LISTEN [firefox -remote openurl(http://www.voxforge.org/home/listen)]
+FORUMS [firefox -remote openurl(http://www.voxforge.org/home/forums)]
+DEVELOP [firefox -remote openurl(http://www.voxforge.org/home/dev)]
+DEVELOPER [firefox -remote openurl(http://www.voxforge.org/home/dev)]
+ABOUT [firefox -remote openurl(http://www.voxforge.org/home/about)]
+HOWTO [firefox -remote openurl(http://www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/how-to/download)]
+TUTORIAL [firefox -remote openurl(http://www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/tutorial/download)]
+

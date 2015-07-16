@@ -1,0 +1,51 @@
+# compile: clear && julia ../bin/mkdfa_vf.jl  grammar/linux/rhythmbox/rhythmbox
+
+% NS_B
+<s>
+
+% NS_E
+</s>
+
+% FILLER
+UH []
+WELL []
+HUM []
+
+% PLAY_RHYTHMBOX
+PLAY [COM]
+
+% RHYTHMBOX_PLAY
+RHYTHMBOX [rhythmbox-client --play]
+
+% STOP_RHYTHMBOX
+STOP [COM]
+
+% RHYTHMBOX_STOP
+RHYTHMBOX [rhythmbox-client --pause]
+
+% RHYTHMBOX
+RHYTHMBOX [COM]
+PLAYER [COM]
+MUSIC [COM]
+
+% RHYTHMBOX_CAT
+PLAY [rhythmbox-client --play]
+START [rhythmbox-client --play]
+NEXT [rhythmbox-client --next]
+SKIP [rhythmbox-client --next]
+FORWARD [rhythmbox-client --next]
+PREVIOUS [rhythmbox-client --previous]
+BACK [rhythmbox-client --previous]
+SHOW [rhythmbox/en/scripts/show.sh]
+WHO [linux/rhythmbox/en/scripts/show.sh]
+ABOUT [linux/rhythmbox/en/scripts/show.sh]
+INFORMATION [linux/rhythmbox/en/scripts/show.sh]
+UP [rhythmbox-client --volume-up]
+LOUDER [rhythmbox-client --volume-up]
+DOWN [rhythmbox-client --volume-down]
+LOWER [rhythmbox-client --volume-down]
+SOFTER [rhythmbox-client --volume-down]
+SILENCE [rhythmbox-client --pause]
+STOP [rhythmbox-client --pause]
+QUIET [rhythmbox-client --pause]
+

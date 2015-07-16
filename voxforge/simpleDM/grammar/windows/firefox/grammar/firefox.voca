@@ -1,0 +1,27 @@
+# compile: julia bin/mkdfa.jl windows/firefox/en/grammar/firefox
+
+% NS_B
+<s>
+
+% NS_E
+</s>
+
+% FILLER
+UH []
+WELL []
+HUM []
+
+% VOXFORGE
+VOXFORGE [COM]
+
+% VOXFORGE_CAT
+HOME ["C:\Program Files\Mozilla Firefox\firefox.exe" www.voxforge.org]
+READ ["C:\Program Files\Mozilla Firefox\firefox.exe" www.voxforge.org/home/read]
+LISTEN ["C:\Program Files\Mozilla Firefox\firefox.exe" www.voxforge.org/home/listen]
+FORUMS ["C:\Program Files\Mozilla Firefox\firefox.exe" www.voxforge.org/home/forums]
+DEVELOP ["C:\Program Files\Mozilla Firefox\firefox.exe" www.voxforge.org/home/dev]
+DEVELOPER ["C:\Program Files\Mozilla Firefox\firefox.exe" www.voxforge.org/home/dev]
+ABOUT ["C:\Program Files\Mozilla Firefox\firefox.exe" www.voxforge.org/home/about]
+HOWTO ["C:\Program Files\Mozilla Firefox\firefox.exe" www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/how-to/download]
+TUTORIAL ["C:\Program Files\Mozilla Firefox\firefox.exe" www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/tutorial/download]
+

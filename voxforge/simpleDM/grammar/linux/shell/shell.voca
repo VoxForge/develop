@@ -1,0 +1,27 @@
+# compile: clear && julia ../bin/mkdfa_vf.jl grammar/linux/shell/shell
+
+% NS_B
+<s>
+
+% NS_E
+</s>
+
+% FILLER
+UH []
+WELL []
+HUM []
+
+% ID
+COMPUTER [COM]
+
+% SHELL_COMMANDS
+WEATHER [grammar/linux/shell/scripts/weather.sh]
+EMAIL [firefox -remote openurl(https://mail.google.com)]
+
+% VOLUME
+VOLUME [COM]
+
+% VOLUME_CAT
+LOUDER [pactl set-sink-volume 1 -- +20%]
+SOFTER [pactl set-sink-volume 1 -- -20%]
+

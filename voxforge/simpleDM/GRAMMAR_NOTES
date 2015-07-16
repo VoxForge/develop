@@ -1,0 +1,58 @@
+VoxForge & Julius Quick Start - Julius Grammar
+
+The enclosed sample grammar files are for demonstration purposes only.  They 
+allow the Julius speech recognition engine to recognize the following type of
+sentences (and many more):
+
+ * CALL STEVE YOUNG
+ * DIAL FIVE SEVEN EIGHT TWO
+ * DIAL THREE ZERO 
+ * DIAL TWO TWO FOUR FOUR NINE ZERO SEVEN SEVEN 
+ * PHONE JOE YOUNG JOHNSTON JOHNSTON JOHNSTON STEVE STEVE STEVE JOE 
+ * CALL BOB JORDAN
+ * CALL STEVE
+ * CALL STEVE JOHNSTON
+ * PHONE STEVE 
+ * DIAL OH OH FOUR FIVE SIX 
+
+Basically, the grammar is designed to recognize any combination of the numbers 
+1 through 9, ZERO and OH.  You must precede numbers with the word 'DIAL' - as
+in "dial 1 2 3".  
+
+It is also set up to recognize any combination of the following names: STEVE, 
+YOUNG, BOB, JOHNSTON, JOHN, JORDAN, and JOE.  You must precede the names with
+the words "PHONE" or "CALL" - as in "phone steve young" or "call johnston".
+
+You can add any word from the VoxForge dictionary (VoxForgeDict.txt) to your
+sample.voca file and recompile the Julius grammar using the included mkdfa.pl
+script (Perl).
+
+For help with Julius grammar syntax see 
+ * the VoxForge tutorial step 1 at: 
+ 
+    http://www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/tutorial/data-prep/step-1 
+    
+  - or -
+  
+ * the Julius grammar tutorial on the Julius web site at: 
+ 
+    http://julius.sourceforge.jp/en_index.php?q=en_grammar.html
+
+If you want to add words not included in to your grammar, you can only use the words (and 
+phones) contained in the VoxForge Dictionary.  This was the dictionary used to
+train the acoustic model you are using.  
+
+If you want to use words that are not included in this dictionary, you may need 
+to recompile the acoustic model with audio that uses the words you want to add.  
+The VoxForge how-to and tutorial can walk you the steps required to do this, 
+see our web site at: 
+
+  http://www.voxforge.org/home/dev/acousticmodels
+
+Remember, your recognition quality will be only as good as the Acoustic Model you use, 
+and we need many more speech submisisons create decent quality Acoustic Models.  
+So please take the time to submit some speech to www.voxforge.org.
+
+thank you,
+
+VoxForge.
