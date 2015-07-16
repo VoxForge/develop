@@ -5,8 +5,8 @@ speech recognition engine and [VoxForge](http://www.voxforge.org) acoustic model
 
 # Try it out
 
-Extract the github zip file to a directory, and execute one of the following 
-command:
+Extract the github zip file to a directory, change directory to the simpleDM 
+folder, and execute one of the following commands:
 
   Linux:
 
