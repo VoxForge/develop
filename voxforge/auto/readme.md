@@ -65,7 +65,7 @@ For help with Julius grammar syntax see
 #VoxForge needs your speech
 Remember, your recognition quality will be only as good as the Acoustic Model you use, 
 and we need many more speech submisisons to continuously improve the VoxForge Acoustic
-Models.  So please take the time to submit some speech to [VoxForge](www.voxforge.org).
+Models.  So please take the time to submit some speech to [VoxForge](http://www.voxforge.org).
 
 thank you,
 
