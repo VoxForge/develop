@@ -1,11 +1,8 @@
 0	[<s>] sil
 1	[</s>] sil
-2	[] ah
-2	[] w eh l
-2	[] hh ah m
-3	[COM] k ah m p y uw t er
-4	[grammar/linux/shell/scripts/weather.sh] w eh dh er
-4	[firefox -remote openurl(https://mail.google.com)] iy m ey l
-5	[COM] v aa l y uw m
-6	[pactl set-sink-volume 1 -- +20%] l aw d er
-6	[pactl set-sink-volume 1 -- -20%] s aa f t er
+2	[COM] k ah m p y uw t er
+3	[grammar/linux/shell/scripts/weather.sh] w eh dh er
+3	[firefox -remote openurl(https://mail.google.com)] iy m ey l
+4	[COM] v aa l y uw m
+5	[pactl set-sink-volume 1 -- +20%] l aw d er
+5	[pactl set-sink-volume 1 -- -20%] s aa f t er

@@ -1,15 +1,10 @@
-# compile: clear && julia ../bin/mkdfa_vf.jl grammar/linux/shell/shell
+# to compile: clear && julia ../bin/mkdfa_vf.jl grammar/linux/shell/shell
 
 % NS_B
 <s>
 
 % NS_E
 </s>
-
-% FILLER
-UH []
-WELL []
-HUM []
 
 % ID
 COMPUTER [COM]

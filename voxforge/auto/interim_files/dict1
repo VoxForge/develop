@@ -7,6 +7,7 @@ ACCOUNT         [ACCOUNT]       ah k aw n t sp
 ACHIEVE         [ACHIEVE]       ah ch iy v sp
 ACTUAL          [ACTUAL]        ae k ch ah w ah l sp
 ACUPUNCTURE     [ACUPUNCTURE]   ae k y uw p ah ng k ch er sp
+ACUTE           [ACUTE]         ah k y uw t sp
 ADVENTURE       [ADVENTURE]     ae d v eh n ch er sp
 AEROBIC         [AEROBIC]       eh r ow b ih k sp
 AFGHAN          [AFGHAN]        ae f g ae n sp
@@ -16,15 +17,20 @@ AHEAD           [AHEAD]         ah hh eh d sp
 AIRPLANE        [AIRPLANE]      eh r p l ey n sp
 ALGORITHM       [ALGORITHM]     ae l g er ih dh ah m sp
 ALLENTOWN       [ALLENTOWN]     ae l ah n t aw n sp
+ALOUETTE        [ALOUETTE]      aa l ah w eh t sp
 ALRIGHT         [ALRIGHT]       ao l r ay t sp
 ALTHOUGH        [ALTHOUGH]      ao l dh ow sp
 ALTOGETHER      [ALTOGETHER]    ao l t ah g eh dh er sp
 AMNESIA         [AMNESIA]       ae m n iy zh ah sp
+AMPUTATE        [AMPUTATE]      ae m p y ah t ey t sp
+AMPUTATION      [AMPUTATION]    ae m p y ah t ey sh ah n sp
 AND             [AND]           ah n d sp
 ANOTHER         [ANOTHER]       ah n ah dh er sp
 ARTHRITIS       [ARTHRITIS]     aa r th r ay t ah s sp
+ARTILLERYMAN    [ARTILLERYMAN]  aa r t ih l er iy m ae n sp
 ASIA            [ASIA]          ey zh ah sp
 AVERSION        [AVERSION]      ah v er zh ah n sp
+BACK            [BACK]          b ae k sp
 BATTLE          [BATTLE]        b ae t ah l sp
 BEATLE          [BEATLE]        b iy t ah l sp
 BEIGE           [BEIGE]         b ey zh sp
@@ -36,6 +42,7 @@ BITTEN          [BITTEN]        b ih t ah n sp
 BLATANT         [BLATANT]       b l ey t ah n t sp
 BODY            [BODY]          b aa d iy sp
 BOOKENDS        [BOOKENDS]      b uh k eh n d z sp
+BOOTERS         [BOOTERS]       b uw t er z sp
 BRIGHT          [BRIGHT]        b r ay t sp
 BRIGHTEN        [BRIGHTEN]      b r ay t ah n sp
 BRITAIN         [BRITAIN]       b r ih t ah n sp
@@ -53,9 +60,13 @@ COLORATION      [COLORATION]    k ah l er ey sh ah n sp
 COMBINATION     [COMBINATION]   k aa m b ah n ey sh ah n sp
 COMMERCIAL      [COMMERCIAL]    k ah m er sh ah l sp
 COMPLAIN        [COMPLAIN]      k ah m p l ey n sp
+COMPUTER        [COMPUTER]      k ah m p y uw t er sp
+COMPUTERIZE     [COMPUTERIZE]   k ah m p y uw t er ay z sp
+CONTRIBUTOR'S   [CONTRIBUTOR'S] k ah n t r ih b y uw t er z sp
 COPYRIGHT       [COPYRIGHT]     k aa p iy r ay t sp
 COUPLE          [COUPLE]        k ah p ah l sp
 CRADLE          [CRADLE]        k r ey d ah l sp
+CREMATION       [CREMATION]     k r iy m ey sh ah n sp
 CRITERIA        [CRITERIA]      k r ay t ih r iy ah sp
 CRUMBLE         [CRUMBLE]       k r ah m b ah l sp
 CUBA            [CUBA]          k y uw b ah sp
@@ -65,51 +76,100 @@ CURING          [CURING]        k y uh r ih ng sp
 CURLING         [CURLING]       k er l ih ng sp
 CYCLING         [CYCLING]       s ay k ah l ih ng sp
 CYNTHIA         [CYNTHIA]       s ih n th iy ah sp
+DAIRYMAID       [DAIRYMAID]     d ey r iy m ey d sp
 DANFORTH        [DANFORTH]      d ae n f er th sp
 DASHBOARD       [DASHBOARD]     d ae sh b ao r d sp
 DATABASE        [DATABASE]      d ey t ah b ey s sp
 DEPTH           [DEPTH]         d eh p th sp
+DEVELOPER       [DEVELOPER]     d ih v eh l ah p er sp
 DIAL            [DIAL]          d ay ah l sp
 DIGEST          [DIGEST]        d ay jh eh s t sp
 DIGITAL         [DIGITAL]       d ih jh ah t ah l sp
 DILIGENT        [DILIGENT]      d ih l ih jh ah n t sp
+DOWN            [DOWN]          d aw n sp
 EIGHT           [EIGHT]         ey t sp
 ELAINE          [ELAINE]        ih l ey n sp
+EMAIL           [EMAIL]         iy m ey l sp
 EXPLAIN         [EXPLAIN]       ih k s p l ey n sp
+FEMALE          [FEMALE]        f iy m ey l sp
 FIVE            [FIVE]          f ay v sp
+FORUMS          [FORUMS]        f ao r ah m z sp
+FORWARD         [FORWARD]       f ao r w er d sp
 FOUR            [FOUR]          f ao r sp
 GATEWAY         [GATEWAY]       g ey t w ey sp
 GATORADE        [GATORADE]      g ae t er ey d sp
 GAZEBO          [GAZEBO]        g ah z ey b ow sp
+GIFTWARE        [GIFTWARE]      g ih f t w eh r sp
+GLADWELL        [GLADWELL]      g l ae d w eh l sp
 HELLO           [HELLO]         hh ah l ow sp
 HELMET          [HELMET]        hh eh l m ah t sp
 HELP            [HELP]          hh eh l p sp
 HELPLESS        [HELPLESS]      hh eh l p l ah s sp
+HOME            [HOME]          hh ow m sp
 HOOD            [HOOD]          hh uh d sp
+HOWTO           [HOWTO]         hh aw t uw sp
+INFORMATION     [INFORMATION]   ih n f ao r m ey sh ah n sp
+ISHMAEL'S       [ISHMAEL'S]     ih sh m ey l z sp
 KENNEL          [KENNEL]        k eh n ah l sp
 KENNETH         [KENNETH]       k eh n ih th sp
 KENYA           [KENYA]         k eh n y ah sp
+LANCEDALE       [LANCEDALE]     l ae n s d ey l sp
+LAVAL           [LAVAL]         l ah v aa l sp
 LEISURE         [LEISURE]       l eh zh er sp
+LISTEN          [LISTEN]        l ih s ah n sp
 LITTLE          [LITTLE]        l ih t ah l sp
+LOUDER          [LOUDER]        l aw d er sp
+LOWER           [LOWER]         l ow er sp
+MAYWEATHER      [MAYWEATHER]    m ey w eh dh er sp
 MEASURE         [MEASURE]       m eh zh er sp
 METAL           [METAL]         m eh t ah l sp
 MIDDLE          [MIDDLE]        m ih d ah l sp
+MINICOMPUTER    [MINICOMPUTER]  m ih n iy k ah m p y uw t er sp
+MUSIC           [MUSIC]         m y uw z ih k sp
 NEEDLE          [NEEDLE]        n iy d ah l sp
+NEXT            [NEXT]          n eh k s t sp
 NINE            [NINE]          n ay n sp
 OH              [OH]            ow sp
 ONE             [ONE]           w ah n sp
+PEWTER          [PEWTER]        p y uw t er sp
 PHONE           [PHONE]         f ow n sp
+PLAY            [PLAY]          p l ey sp
+PLAYER          [PLAYER]        p l ey er sp
 POODLE          [POODLE]        p uw d ah l sp
+PREVIOUS        [PREVIOUS]      p r iy v iy ah s sp
+PUMA'S          [PUMA'S]        p y uw m ah z sp
+QUIET           [QUIET]         k w ay ah t sp
+READ            [READ]          r eh d sp
+RHYTHMBOX       [RHYTHMBOX]     r ih dh ah m b aa k s sp
 RIGHT           [RIGHT]         r ay t sp
 SADDLE          [SADDLE]        s ae d ah l sp
+SCALIA          [SCALIA]        s k aa l iy ah sp
 SENT-END        []              sil
 SENT-START      []              sil
 SEVEN           [SEVEN]         s eh v ah n sp
+SHOW            [SHOW]          sh ow sp
+SILENCE         [SILENCE]       s ay l ah n s sp
 SIX             [SIX]           s ih k s sp
+SKIP            [SKIP]          s k ih p sp
+SOFTER          [SOFTER]        s aa f t er sp
+SOLUBLE         [SOLUBLE]       s aa l y ah b ah l sp
+START           [START]         s t aa r t sp
 STEVE           [STEVE]         s t iy v sp
+STOP            [STOP]          s t aa p sp
+SUPERVALUE      [SUPERVALUE]    s uw p er v ae l y uw sp
 THREE           [THREE]         th r iy sp
+TUTORIAL        [TUTORIAL]      t uw t ao r iy ah l sp
 TWO             [TWO]           t uw sp
+UP              [UP]            ah p sp
+VALUATION       [VALUATION]     v ae l y uw ey sh ah n sp
+VOLATILE        [VOLATILE]      v aa l ah t ah l sp
+VOLUME          [VOLUME]        v aa l y uw m sp
+VOXFORGE        [VOXFORGE]      v aa k s f ao r jh sp
+WEATHER         [WEATHER]       w eh dh er sp
 WEEKEND         [WEEKEND]       w iy k eh n d sp
+WHETHER         [WHETHER]       w eh dh er sp
+WHO             [WHO]           hh uw sp
+WOODSTREAM      [WOODSTREAM]    w uh d s t r iy m sp
 YOUNG           [YOUNG]         y ah ng sp
 ZERO            [ZERO]          z iy r ow sp
 silence  []  sil

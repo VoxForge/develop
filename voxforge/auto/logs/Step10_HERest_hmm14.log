@@ -16,74 +16,92 @@ HTK Configuration Parameters[10]
 HERest  ML Updating: Transitions Means Variances 
 
  System is SHARED
-489 Logical/46 Physical Models Loaded, VecSize=25
+714 Logical/47 Physical Models Loaded, VecSize=25
 2 MMF input files
 Pruning-On[250.0 150.0 3000.0]
  Processing Data: sample1.mfc; Label sample1.lab
- Utterance prob per frame = -5.286340e+01
+ Utterance prob per frame = -5.323076e+01
  Processing Data: sample2.mfc; Label sample2.lab
- Utterance prob per frame = -5.217407e+01
+ Utterance prob per frame = -5.255225e+01
  Processing Data: sample3.mfc; Label sample3.lab
- Utterance prob per frame = -5.175965e+01
+ Utterance prob per frame = -5.181845e+01
  Processing Data: sample4.mfc; Label sample4.lab
- Utterance prob per frame = -5.408566e+01
+ Utterance prob per frame = -5.419393e+01
  Processing Data: sample5.mfc; Label sample5.lab
- Utterance prob per frame = -5.436565e+01
+ Utterance prob per frame = -5.474687e+01
  Processing Data: sample6.mfc; Label sample6.lab
- Utterance prob per frame = -5.415003e+01
+ Utterance prob per frame = -5.432487e+01
  Processing Data: sample7.mfc; Label sample7.lab
- Utterance prob per frame = -5.317803e+01
+ Utterance prob per frame = -5.286789e+01
  Processing Data: sample8.mfc; Label sample8.lab
- Utterance prob per frame = -5.078604e+01
+ Utterance prob per frame = -5.111877e+01
  Processing Data: sample9.mfc; Label sample9.lab
- Utterance prob per frame = -5.747484e+01
+ Utterance prob per frame = -5.737098e+01
  Processing Data: sample10.mfc; Label sample10.lab
- Utterance prob per frame = -5.450041e+01
+ Utterance prob per frame = -5.506474e+01
  Processing Data: sample11.mfc; Label sample11.lab
- Utterance prob per frame = -5.473796e+01
+ Utterance prob per frame = -5.412765e+01
  Processing Data: sample12.mfc; Label sample12.lab
- Utterance prob per frame = -5.499610e+01
+ Utterance prob per frame = -5.464732e+01
  Processing Data: sample13.mfc; Label sample13.lab
- Utterance prob per frame = -5.609414e+01
+ Utterance prob per frame = -5.587192e+01
  Processing Data: sample14.mfc; Label sample14.lab
- Utterance prob per frame = -5.544643e+01
+ Utterance prob per frame = -5.561734e+01
  Processing Data: sample15.mfc; Label sample15.lab
- Utterance prob per frame = -5.723941e+01
+ Utterance prob per frame = -5.589323e+01
  Processing Data: sample16.mfc; Label sample16.lab
- Utterance prob per frame = -5.415379e+01
+ Utterance prob per frame = -5.427110e+01
  Processing Data: sample17.mfc; Label sample17.lab
- Utterance prob per frame = -5.553077e+01
+ Utterance prob per frame = -5.456400e+01
  Processing Data: sample18.mfc; Label sample18.lab
- Utterance prob per frame = -5.452978e+01
+ Utterance prob per frame = -5.427321e+01
  Processing Data: sample19.mfc; Label sample19.lab
- Utterance prob per frame = -5.458376e+01
+ Utterance prob per frame = -5.418045e+01
  Processing Data: sample20.mfc; Label sample20.lab
- Utterance prob per frame = -5.835373e+01
+ Utterance prob per frame = -5.821984e+01
  Processing Data: sample21.mfc; Label sample21.lab
- Utterance prob per frame = -5.770608e+01
+ Utterance prob per frame = -5.753892e+01
  Processing Data: sample22.mfc; Label sample22.lab
- Utterance prob per frame = -5.838442e+01
+ Utterance prob per frame = -5.909824e+01
  Processing Data: sample23.mfc; Label sample23.lab
- Utterance prob per frame = -5.781175e+01
+ Utterance prob per frame = -5.853958e+01
  Processing Data: sample24.mfc; Label sample24.lab
- Utterance prob per frame = -5.930178e+01
+ Utterance prob per frame = -5.962472e+01
  Processing Data: sample25.mfc; Label sample25.lab
- Utterance prob per frame = -5.616607e+01
+ Utterance prob per frame = -5.626523e+01
  Processing Data: sample26.mfc; Label sample26.lab
- Utterance prob per frame = -5.807352e+01
+ Utterance prob per frame = -5.769763e+01
  Processing Data: sample27.mfc; Label sample27.lab
- Utterance prob per frame = -5.781566e+01
+ Utterance prob per frame = -5.835353e+01
  Processing Data: sample28.mfc; Label sample28.lab
- Utterance prob per frame = -5.651879e+01
+ Utterance prob per frame = -5.632228e+01
  Processing Data: sample29.mfc; Label sample29.lab
- Utterance prob per frame = -5.524961e+01
+ Utterance prob per frame = -5.535205e+01
  Processing Data: sample30.mfc; Label sample30.lab
- Utterance prob per frame = -5.519529e+01
+ Utterance prob per frame = -5.514268e+01
  Processing Data: sample31.mfc; Label sample31.lab
- Utterance prob per frame = -5.465195e+01
+ Utterance prob per frame = -5.473030e+01
+ Processing Data: sample32.mfc; Label sample32.lab
+ Utterance prob per frame = -5.772922e+01
+ Processing Data: sample33.mfc; Label sample33.lab
+ Utterance prob per frame = -5.971931e+01
+ Processing Data: sample34.mfc; Label sample34.lab
+ Utterance prob per frame = -5.720847e+01
+ Processing Data: sample35.mfc; Label sample35.lab
+ Utterance prob per frame = -5.733753e+01
+ Processing Data: sample36.mfc; Label sample36.lab
+ Utterance prob per frame = -5.497797e+01
+ Processing Data: sample37.mfc; Label sample37.lab
+ Utterance prob per frame = -5.796523e+01
+ Processing Data: sample38.mfc; Label sample38.lab
+ Utterance prob per frame = -6.052606e+01
+ Processing Data: sample39.mfc; Label sample39.lab
+ Utterance prob per frame = -5.600090e+01
+ Processing Data: sample40.mfc; Label sample40.lab
+ Utterance prob per frame = -5.809205e+01
 Saving hmm's to dir ./interim_files/hmm14
-Reestimation complete - average log prob per frame = -5.491819e+01
-     - total frames seen          = 1.816000e+04
+Reestimation complete - average log prob per frame = -5.577501e+01
+     - total frames seen          = 2.563900e+04
 
 HTK Configuration Parameters[10]
   Module/Tool     Parameter                  Value

@@ -3,53 +3,53 @@ WARNING: no script file ./input_files/VoxForgeDict.txt.ded
 Dictionary Usage Statistics
 ---------------------------
   Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
-VoxForgeDict    268089        114     268089        114
-        dict       114        114        114        114
+VoxForgeDict    268093        174     268093        174
+        dict       174        174        174        174
 
-114 words required, 0 missing
+174 words required, 0 missing
 
 New Phone Usage Counts
 ---------------------
-  1. ae    :    17
-  2. b     :    32
-  3. ah    :    74
-  4. l     :    48
-  5. ow    :     9
-  6. n     :    43
-  7. sp    :   112
-  8. d     :    26
-  9. aa    :     8
- 10. m     :    13
- 11. z     :     7
- 12. ih    :    23
- 13. sh    :     7
- 14. aw    :     4
+  1. ae    :    25
+  2. b     :    37
+  3. ah    :   102
+  4. l     :    75
+  5. ow    :    12
+  6. n     :    56
+  7. sp    :   172
+  8. d     :    36
+  9. aa    :    20
+ 10. m     :    34
+ 11. z     :    14
+ 12. ih    :    34
+ 13. sh    :    13
+ 14. aw    :     7
  15. ng    :     7
- 16. t     :    32
- 17. k     :    33
+ 16. t     :    57
+ 17. k     :    47
  18. ch    :     5
- 19. iy    :    12
- 20. v     :     8
- 21. w     :     4
- 22. y     :     8
- 23. uw    :     7
- 24. p     :    11
- 25. er    :    13
- 26. eh    :    24
- 27. r     :    21
- 28. f     :     5
- 29. g     :     8
- 30. s     :    15
+ 19. iy    :    23
+ 20. v     :    16
+ 21. w     :    13
+ 22. y     :    22
+ 23. uw    :    23
+ 24. p     :    26
+ 25. er    :    30
+ 26. eh    :    33
+ 27. r     :    36
+ 28. f     :    12
+ 29. g     :    10
+ 30. s     :    31
  31. th    :     7
- 32. hh    :    10
- 33. ey    :    20
- 34. dh    :     4
- 35. ao    :     6
- 36. ay    :    12
+ 32. hh    :    13
+ 33. ey    :    34
+ 34. dh    :     8
+ 35. ao    :    11
+ 36. ay    :    15
  37. zh    :     7
- 38. uh    :     5
+ 38. uh    :     6
  39. oy    :     4
- 40. jh    :     3
+ 40. jh    :     4
  41. sil   :     2
 
 Dictionary ./interim_files/dict created

@@ -334,5 +334,5 @@ println("Step 10 - Making Tied-State Triphones")
     f=open("logs/Step10_HERest_hmm$cur.log","w"); write(f,out); close(f)
   end
 
-  cp("./interim_files/hmm15/hmmdefs", "acoustic_model_files/hmmdefs")
-  cp("./interim_files/tiedlist", "acoustic_model_files/tiedlist")
+  cp("./interim_files/hmm15/hmmdefs", "acoustic_model/hmmdefs")
+  cp("./interim_files/tiedlist", "acoustic_model/tiedlist")

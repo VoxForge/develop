@@ -1,15 +1,10 @@
-# compile: clear && julia ../bin/mkdfa_vf.jl grammar/linux/firefox/firefox
+# to compile: clear && julia ../bin/mkdfa_vf.jl grammar/linux/firefox/firefox
 
 % NS_B
 <s>
 
 % NS_E
 </s>
-
-% FILLER
-UH []
-WELL []
-HUM []
 
 % VOXFORGE
 VOXFORGE [COM]

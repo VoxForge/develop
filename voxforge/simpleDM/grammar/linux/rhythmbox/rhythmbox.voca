@@ -1,15 +1,10 @@
-# compile: clear && julia ../bin/mkdfa_vf.jl  grammar/linux/rhythmbox/rhythmbox
+# to compile: clear && julia ../bin/mkdfa_vf.jl  grammar/linux/rhythmbox/rhythmbox
 
 % NS_B
 <s>
 
 % NS_E
 </s>
-
-% FILLER
-UH []
-WELL []
-HUM []
 
 % PLAY_RHYTHMBOX
 PLAY [COM]
