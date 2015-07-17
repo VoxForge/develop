@@ -1,7 +1,7 @@
 # simpleDM
 
 simpleDM is a very basic command and control dialog manager that uses the [Julius](http://julius.osdn.jp/en_index.php)
-speech recognition engine and [VoxForge](http://www.voxforge.org) acoustic models.
+speech recognition engine and the acoustic models you created in the Howto (or tutorial).
 
 # Try it out
 
@@ -10,6 +10,7 @@ folder, and execute one of the following commands:
 
   Linux:
 
+      $ cd simpleDM
       $ ../bin/julius -input mic -C simpleDM.jconf -gramlist grammars_linux -plugindir plugin/linux
 
   Windows:
