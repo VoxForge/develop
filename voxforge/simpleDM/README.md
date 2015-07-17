@@ -1,6 +1,6 @@
 # simpleDM
 
-simpleDM is a command and control dialog manager that uses the [Julius](http://julius.osdn.jp/en_index.php)
+simpleDM is a very basic command and control dialog manager that uses the [Julius](http://julius.osdn.jp/en_index.php)
 speech recognition engine and [VoxForge](http://www.voxforge.org) acoustic models.
 
 # Try it out
