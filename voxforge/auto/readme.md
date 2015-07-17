@@ -10,49 +10,48 @@ See [VoxForge](http://www.voxforge.org) website for details:
 
 #run Julius
 
-To run Julius whith a sample configuration:
+To run Julius with the Julius sample configuration:
 
-  $cd voxforge/auto
-  $julius -input mic -C sample.jconf 
+  $ cd voxforge/auto
+  $ julius -input mic -C sample.jconf 
 
 #Julius grammar
 The enclosed sample grammar files are for demonstration purposes only.  They 
 allow the Julius speech recognition engine to recognize the following type of
 sentences (and many more):
 
- * CALL STEVE YOUNG
- * DIAL FIVE SEVEN EIGHT TWO
- * DIAL THREE ZERO 
- * DIAL TWO TWO FOUR FOUR NINE ZERO SEVEN SEVEN 
- * PHONE JOE YOUNG JOHNSTON JOHNSTON JOHNSTON STEVE STEVE STEVE JOE 
- * CALL BOB JORDAN
- * CALL STEVE
- * CALL STEVE JOHNSTON
- * PHONE STEVE 
- * DIAL OH OH FOUR FIVE SIX 
+ * CALL STEVE 
+ * DIAL FIVE
+ * DIAL THREE 
+ * DIAL TWO 
+ * PHONE YOUNG 
+ * PHONE STEVE
+ * DIAL NINE 
 
-Basically, the grammar is designed to recognize any combination of the numbers 
+Basically, the grammar is designed to recognize any of of the numbers 
 1 through 9, ZERO and OH.  You must precede numbers with the word 'DIAL' - as
-in "dial 1 2 3".  
+in "dial 1 2 3". 
 
-It is also set up to recognize any combination of the following names: STEVE, 
-YOUNG, BOB, JOHNSTON, JOHN, JORDAN, and JOE.  You must precede the names with
-the words "PHONE" or "CALL" - as in "phone steve young" or "call johnston".
+It is also set up to recognize any combination of the name STEVE or YOUNG.  
+You must precede the name with the words "PHONE" or "CALL" - as in "phone steve" 
+or "call young".
 
 #adding words to Julius grammar
 ##words already in VoxForge dictionary
 You can add any word from the VoxForge dictionary (lexicon/VoxForgeDict.txt) to your
 sample.voca file and recompile the Julius grammar using the included mkdfa.jl
-script (Julia).
+script [Julia](http://julialang.org/):
+
   $ cd auto
   $ julia ../bin/mkdfa.jl sample
 
 ##words not in VoxForge dictionary
-If you want to use words that are not included in this dictionary, you may need 
-to recompile the acoustic model with audio that uses the words you want to add.  
+If you want to use words that are not included in this dictionary, you may be able to 
+just add the word (with its pronunciation phones) to the VoxForgeDict.txt.  If you
+get errors with respect to missing triphones, you will likely need to recompile the
+acoustic model with audio that uses the words you want to add.  
 The [VoxForge how-to or tutorial](http://www.voxforge.org/home/dev) can walk you the steps required to do this.
 
-  
 
 ##more grammar information
 For help with Julius grammar syntax see 
