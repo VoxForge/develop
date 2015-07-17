@@ -329,7 +329,7 @@ l[3]
 
 ow[3]
 {
-   0              'L_C-Front'  "ST_ow_3_1"  "ST_ow_3_2" 
+   0              'R_Central'  "ST_ow_3_1"  "ST_ow_3_2" 
 }
 
 n[3]
@@ -494,7 +494,9 @@ iy[4]
    "ST_iy_4_1"
 
 v[4]
-   "ST_v_4_1"
+{
+   0                 'L_Long'  "ST_v_4_1"  "ST_v_4_2" 
+}
 
 w[4]
    "ST_w_4_1"
@@ -543,7 +545,7 @@ ao[4]
 
 ay[4]
 {
-   0                'R_Nasal'  "ST_ay_4_1"  "ST_ay_4_2" 
+   0            'R_C-Central'  "ST_ay_4_1"  "ST_ay_4_2" 
 }
 
 zh[4]

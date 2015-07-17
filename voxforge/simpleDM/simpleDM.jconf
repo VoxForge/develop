@@ -9,8 +9,10 @@
 # on Windows: ..\bin\julius -input mic -C voxshell.jconf -gramlist grammars_windows -plugindir plugin\windows
 
 # VoxForge configurations:
--h ../auto/acoustic_model/hmmdefs
--hlist ../auto/acoustic_model/tiedlist
+-h ../manual/hmm15/hmmdefs
+-hlist ../manual/tiedlist
+#-h ../auto/acoustic_model/hmmdefs
+#-hlist ../auto/acoustic_model/tiedlist
 
 -spmodel "sp"		# HMM model name
 -multipath
@@ -30,6 +32,6 @@
 # recognizing non-speech sounds:
 -lv 4000			# level threshold (0-32767)
 
--quiet
--logfile julius.log
+#-quiet
+#-logfile julius.log
 # !!!!!!
