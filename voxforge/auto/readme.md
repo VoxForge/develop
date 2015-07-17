@@ -19,7 +19,7 @@ To run Julius with the Julius sample configuration:
 #Julius grammar
 The enclosed sample grammar files are for demonstration purposes only.  They 
 allow the Julius speech recognition engine to recognize the following type of
-sentences (and many more):
+sentences:
 
  * CALL STEVE 
  * DIAL FIVE
@@ -33,12 +33,12 @@ Basically, the grammar is designed to recognize any of of the numbers
 1 through 9, ZERO and OH.  You must precede numbers with the word 'DIAL' - as
 in "dial 1 2 3". 
 
-It is also set up to recognize any combination of the name STEVE or YOUNG.  
+It is also set up to recognize one of the names STEVE or YOUNG.  
 You must precede the name with the words "PHONE" or "CALL" - as in "phone steve" 
 or "call young".
 
-#adding words to Julius grammar
-##words already in VoxForge dictionary
+#Adding words to Julius grammar
+###words already in VoxForge dictionary
 You can add any word from the VoxForge dictionary (lexicon/VoxForgeDict.txt) to your
 sample.voca file and recompile the Julius grammar using the included mkdfa.jl
 script [Julia](http://julialang.org/):
@@ -46,7 +46,7 @@ script [Julia](http://julialang.org/):
   $ cd auto
   $ julia ../bin/mkdfa.jl sample
 
-##words not in VoxForge dictionary
+###words not in VoxForge dictionary
 If you want to use words that are not included in this dictionary, you may be able to 
 just add the word (with its pronunciation phones) to the VoxForgeDict.txt.  If you
 get errors with respect to missing triphones, you will likely need to recompile the
@@ -54,15 +54,15 @@ acoustic model with audio that uses the words you want to add.
 The [VoxForge how-to or tutorial](http://www.voxforge.org/home/dev) can walk you the steps required to do this.
 
 
-##more grammar information
+###More grammar information
 For help with Julius grammar syntax see 
  * [VoxForge tutorial step 1](http://www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/tutorial/data-prep/step-1)
     
-  - or -
+  -or-
   
  * [Julius grammar tutorial on the Julius web site](http://julius.sourceforge.jp/en_index.php?q=en_grammar.html)
 
-#we need more speech
+#VoxForge needs your speech
 Remember, your recognition quality will be only as good as the Acoustic Model you use, 
 and we need many more speech submisisons to continuously improve the VoxForge Acoustic
 Models.  So please take the time to submit some speech to [VoxForge](www.voxforge.org).
