@@ -6,8 +6,8 @@ in the [HTK book](http://http://htk.eng.cam.ac.uk/docs/docs.shtml), but uses a s
 
 See [VoxForge](http://www.voxforge.org) website for details:
 
-  [Linux](http://www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/how-to) 
-  [Windows](http://www.voxforge.org/home/dev/acousticmodels/windows/create/htkjulius/how-to) 
+  * [Linux](http://www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/how-to) 
+  * [Windows](http://www.voxforge.org/home/dev/acousticmodels/windows/create/htkjulius/how-to) 
 
 #run Julius
 
