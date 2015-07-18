@@ -1,4 +1,4 @@
-# to compile: clear && julia ../bin/mkdfa_vf.jl grammar/linux/firefox/firefox
+# to compile: clear && julia ../bin/compile_grammar.jl grammar/linux/firefox/firefox
 
 % NS_B
 <s>

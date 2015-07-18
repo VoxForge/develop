@@ -1,4 +1,4 @@
-# compile: julia bin/mkdfa.jl windows/firefox/en/grammar/firefox
+# compile: julia bin\compile_grammar.jl grammar\windows\firefox\firefox
 
 % NS_B
 <s>
