@@ -69,4 +69,4 @@ Models.  So please take the time to submit some speech to [VoxForge](http://www.
 
 thank you,
 
-VoxForge team.
+the VoxForge team.

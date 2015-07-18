@@ -23,4 +23,4 @@ Models.  Please take the time to submit some speech to [voxforge](http://www.vox
 
 thank you,
 
-VoxForge.
+the VoxForge team.
