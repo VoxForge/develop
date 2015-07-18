@@ -9,10 +9,10 @@
 # on Windows: ..\bin\julius -input mic -C voxshell.jconf -gramlist grammars_windows -plugindir plugin\windows
 
 # VoxForge configurations:
-#-h ../manual/hmm15/hmmdefs
-#-hlist ../manual/tiedlist
--h ../auto/acoustic_model/hmmdefs
--hlist ../auto/acoustic_model/tiedlist
+#-h ../tutorial/hmm15/hmmdefs
+#-hlist ../tutorial/tiedlist
+-h ../howto/acoustic_model/hmmdefs
+-hlist ../howto/acoustic_model/tiedlist
 
 -spmodel "sp"		# HMM model name
 -multipath
