@@ -13,7 +13,7 @@ See [VoxForge](http://www.voxforge.org) website for details:
 
 To run Julius with the Julius sample configuration:
 
-  $ cd voxforge/manual
+  $ cd tutorial
   $ julius -input mic -C sample.jconf 
 
 #Julius grammar
@@ -43,7 +43,7 @@ You can add any word from the VoxForge dictionary (lexicon/VoxForgeDict.txt) to 
 sample.voca file and recompile the Julius grammar using the included mkdfa.jl
 script [Julia](http://julialang.org/):
 
-  $ cd manual
+  $ cd tutorial
   $ julia ../bin/mkdfa.jl sample
 
 ###words not in VoxForge dictionary
@@ -69,4 +69,4 @@ Models.  So please take the time to submit some speech to [VoxForge](http://www.
 
 thank you,
 
-VoxForge.
+the VoxForge team.
