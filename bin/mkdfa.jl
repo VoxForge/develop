@@ -149,8 +149,8 @@ function main ()
 
   reverse_grammar(rgramfile,gramfile)
   make_category_voca(vocafile,termfile,tmpvocafile)
-  run(`../bin/$mkfa -e1 -fg $rgramfile -fv $tmpvocafile -fo $(dfafile).tmp -fh $headerfile`)
-  run(`../bin/$dfa_minimize $(dfafile).tmp -o $dfafile`)
+  run(`$mkfa -e1 -fg $rgramfile -fv $tmpvocafile -fo $(dfafile).tmp -fh $headerfile`)
+  run(`$dfa_minimize $(dfafile).tmp -o $dfafile`)
   voca2dict(vocafile, dictfile)
 
   rm("$(dfafile).tmp")
