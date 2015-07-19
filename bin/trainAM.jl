@@ -26,10 +26,10 @@ require("../bin/mkclscript.jl")
 require("../bin/fixfulllist.jl")
 
 function htkinit() 
-  if isdir("./acoustic_model_files")
-    rm("./acoustic_model_files"; recursive=true)
+  if isdir("./acoustic_model")
+    rm("./acoustic_model"; recursive=true)
   end
-  mkdir("./acoustic_model_files")
+  mkdir("./acoustic_model")
   if isdir("./interim_files")
     rm("./interim_files"; recursive=true)
   end
