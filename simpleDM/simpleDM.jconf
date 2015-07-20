@@ -11,8 +11,8 @@
 # VoxForge configurations:
 #-h ../tutorial/hmm15/hmmdefs
 #-hlist ../tutorial/tiedlist
--h ../howto/acoustic_model/hmmdefs
--hlist ../howto/acoustic_model/tiedlist
+-h hmmdefs
+-hlist tiedlist
 
 -spmodel "sp"		# HMM model name
 -multipath

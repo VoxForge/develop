@@ -1,4 +1,4 @@
-# to compile: clear && julia ../bin/compile_grammar.jl grammar/linux/firefox/firefox
+# to compile: clear && julia ../bin/compile_grammar.jl  grammar/linux/firefox/firefox
 
 % NS_B
 <s>
@@ -8,6 +8,13 @@
 
 % VOXFORGE
 VOXFORGE [COM]
+% BROWSER
+FIREFOX [COM]
+BROWSER [COM]
+
+% BROWSER_CAT
+GOOGLE [firefox -remote openurl(http://www.google.com)]
+
 
 % VOXFORGE_CAT
 HOME [firefox -remote openurl(http://www.voxforge.org)]
@@ -19,4 +26,3 @@ DEVELOPER [firefox -remote openurl(http://www.voxforge.org/home/dev)]
 ABOUT [firefox -remote openurl(http://www.voxforge.org/home/about)]
 HOWTO [firefox -remote openurl(http://www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/how-to/download)]
 TUTORIAL [firefox -remote openurl(http://www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/tutorial/download)]
-
