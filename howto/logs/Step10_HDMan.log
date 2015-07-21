@@ -1,4 +1,4 @@
-HDMan -A -D -T 1 -b sp -n ./interim_files/fulllist -g ./input_files/global.ded -l logs/Step10_HDMan.flog ./interim_files/dict-tri ../lexicon/VoxForgeDict.txt 
+HDMan -A -D -T 1 -b sp -n ./interim_files/fulllist -g ./input_files/maketriphones.ded -l logs/Step10_HDMan.flog ./interim_files/dict-tri ../lexicon/VoxForgeDict.txt 
 
 No HTK Configuration Parameters Set
 

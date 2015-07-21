@@ -196,31 +196,6 @@ function mktrihed()
   close(hed)
 end
 
-function append_to_file(fromfile, tofile)
-  tofile=open(tofile,"a")
-
-  fromfile_arr=open(readlines, fromfile)  # automatically closes file handle
-  for line=fromfile_arr
-    write(tofile,line)
-  end
-
-  close(tofile)
-end
-
-function complete_tree_hed(tree_hed)
-  hmmlist=open(tree_hed,"a"); 
-
-  write(hmmlist," \n"); 
-  write(hmmlist,"TR 1\n");     
-  write(hmmlist," \n"); 
-  write(hmmlist,"AU \"./interim_files/fulllist\" \n"); 
-  write(hmmlist,"CO \"./interim_files/tiedlist\" \n"); 
-  write(hmmlist," \n"); 
-  write(hmmlist,"ST \"./interim_files/trees\"  \n"); 
-
-  close(hmmlist)
-end
-
 ########################################################################
 # Main 
 ########################################################################
@@ -317,13 +292,11 @@ println("Step 9 - Making Triphones from Monophones")
   f=open("logs/Step9_HERest_hmm12.log","w"); write(f,out); close(f)
 
 println("Step 10 - Making Tied-State Triphones")
-  out=readall(`HDMan -A -D -T 1 -b sp -n ./interim_files/fulllist -g ./input_files/global.ded -l logs/Step10_HDMan.flog ./interim_files/dict-tri ../lexicon/VoxForgeDict.txt`)
+  out=readall(`HDMan -A -D -T 1 -b sp -n ./interim_files/fulllist -g ./input_files/maketriphones.ded -l logs/Step10_HDMan.flog ./interim_files/dict-tri ../lexicon/VoxForgeDict.txt`)
   f=open("logs/Step10_HDMan.log","w"); write(f,out); close(f)
-  append_to_file("./interim_files/triphones1", "./interim_files/fulllist")
-  fixfulllist("./interim_files/fulllist", "./interim_files/fulllist")
+  fixfulllist("./interim_files/fulllist", "./interim_files/monophones0", "./interim_files/fulllist")
   cp("./input_files/tree1.hed", "./interim_files/tree.hed")
-  mkclscript( "./interim_files/monophones0", "./interim_files/tree.hed")
-  complete_tree_hed("./interim_files/tree.hed")
+  mkclscript( "./interim_files/monophones0", "./interim_files/tree.hed", "./interim_files/")
   println("making hmm13")
   out=readall(`HHEd -A -D -T 1 -H ./interim_files/hmm12/macros -H ./interim_files/hmm12/hmmdefs -M ./interim_files/hmm13 ./interim_files/tree.hed ./interim_files/triphones1`)
   f=open("logs/Step10_HHed_hmm13.log","w"); write(f,out); close(f)

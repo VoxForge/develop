@@ -17,7 +17,7 @@
 #
 ###############################################################################
 
-function mkclscript(monophones0, tree_hed)
+function mkclscript(monophones0, tree_hed, folder)
   hmmlist=open(tree_hed,"a"); 
 
   monophones0_arr=open(readlines, monophones0) 
@@ -28,22 +28,36 @@ function mkclscript(monophones0, tree_hed)
     end
   end
 
+  write(hmmlist,"\n") 
+  write(hmmlist,"TR 1\n")
+  write(hmmlist,"\n") 
+  write(hmmlist,"AU \"$(folder)/fulllist\" \n")
+  write(hmmlist,"CO \"$(folder)/tiedlist\" \n")
+  write(hmmlist,"\n") 
+  write(hmmlist,"ST \"$(folder)/trees\" \n")
+
   close(hmmlist)
 end
 
 # if called from command line
 if length(ARGS) > 0 
   if ! isfile(ARGS[1])
-    error("can't find monophones0 file: $ARGS[1]")
+    error("can't find monophones0 file: $(ARGS[1])")
   end
   if ! isfile(ARGS[2])
-    error("can't find tree.hed file: $ARGS[2]")
+    error("can't find tree.hed file: $(ARGS[2])")
   end
-  if length(ARGS) > 2
+  if length(ARGS) == 2
+    mkclscript(ARGS[1], ARGS[2], "." )
+  elseif length(ARGS) == 3
+    mkclscript(ARGS[1], ARGS[2], ARGS[3] )
+  end
+
+  if length(ARGS) > 3
     error("mkclscript: too many arguments for call from command line")
   end
 
-  mkclscript(ARGS[1], ARGS[2] )
+
 end
 
 

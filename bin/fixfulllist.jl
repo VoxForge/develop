@@ -17,12 +17,15 @@
 #
 ###############################################################################
 
-function fixfulllist(in_fulllist, out_fulllist)
+function fixfulllist(in_fulllist, in_monophones0, out_fulllist)
   seen=Dict{String, Int32}()
   in_fulllist_arr=open(readlines, in_fulllist) # automatically closes file handle
+  in_monophones0_arr=open(readlines, in_monophones0) # automatically closes file handle
+  new_fulllist_arr=cat(1,in_fulllist_arr, in_monophones0_arr)
 
   out_fulllist_fh=open(out_fulllist,"w")
-  for phoneln=in_fulllist_arr
+
+  for phoneln=new_fulllist_arr
     phone=chomp(phoneln)
     if ! haskey(seen,phone) # remove duplicate monophone/triphone names
       seen[phone]=1
@@ -36,13 +39,16 @@ end
 # if called from command line
 if length(ARGS) > 0 
   if ! isfile(ARGS[1])
-    error("can't find input file: $ARGS[1]")
+    error("can't find fulllist file: $ARGS[1]")
   end
-  if length(ARGS) > 2
-    error("fixfulllist: too many arguments for call from command line")
+  if ! isfile(ARGS[2])
+    error("can't find monophones0 file: $ARGS[2]")
+  end
+  if length(ARGS) > 3
+    error("fixfulllist: too many arguments for call from command line\nusage: in_fulllist, in_monophones0, out_fulllist")
   end
 
-  fixfulllist(ARGS[1], ARGS[2])
+  fixfulllist(ARGS[1], ARGS[2], ARGS[3])
 end
 
 

@@ -345,10 +345,10 @@ TB 350 "ST_uh_4_" {("uh","*-uh+*","uh+*","*-uh").state[4]}
 TB 350 "ST_oy_4_" {("oy","*-oy+*","oy+*","*-oy").state[4]}
 TB 350 "ST_jh_4_" {("jh","*-jh+*","jh+*","*-jh").state[4]}
 TB 350 "ST_sil_4_" {("sil","*-sil+*","sil+*","*-sil").state[4]}
- 
+
 TR 1
- 
-AU "./interim_files/fulllist" 
-CO "./interim_files/tiedlist" 
- 
-ST "./interim_files/trees"  
+
+AU "./interim_files//fulllist" 
+CO "./interim_files//tiedlist" 
+
+ST "./interim_files//trees" 

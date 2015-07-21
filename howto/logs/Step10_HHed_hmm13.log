@@ -1272,15 +1272,15 @@ TB 350.00 ST_sil_4_ {}
 TR 1
  Adjusting trace level
 
-AU ./interim_files/fulllist
+AU ./interim_files//fulllist
  Creating HMMset using trees to add unseen triphones
- AU: 714 Log/714 Phys created from 676 Log/676 Phys
+ AU: 24402 Log/24402 Phys created from 676 Log/676 Phys
 
-CO ./interim_files/tiedlist
+CO ./interim_files//tiedlist
  Create compact HMMList
- CO: HMMs 714 Logical 47 Physical
+ CO: HMMs 24402 Logical 810 Physical
 
-ST ./interim_files/trees
+ST ./interim_files//trees
  Writing current questions/trees to file
 
 Saving new HMM files ...
