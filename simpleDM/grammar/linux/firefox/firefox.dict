@@ -1,6 +1,6 @@
 0	[<s>] sil
 1	[</s>] sil
-2	[COM] v aa k s f ao r jh
+2	[APP] v aa k s f ao r jh
 3	[firefox -remote openurl(http://www.voxforge.org)] hh ow m
 3	[firefox -remote openurl(http://www.voxforge.org/home/read)] r eh d
 3	[firefox -remote openurl(http://www.voxforge.org/home/listen)] l ih s ah n
