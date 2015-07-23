@@ -1,5 +1,3 @@
-# to compile: julia ../bin/compile_grammar.jl  grammar/linux/firefox/firefox
-
 % NS_B
 <s>
 
