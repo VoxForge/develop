@@ -1,4 +1,4 @@
-# to compile: clear && julia ../bin/compile_grammar.jl  grammar/linux/firefox/firefox
+# to compile: julia ../bin/compile_grammar.jl  grammar/linux/firefox/firefox
 
 % NS_B
 <s>
@@ -6,18 +6,10 @@
 % NS_E
 </s>
 
-% VOXFORGE
-VOXFORGE [COM]
+% APPLICATION
+VOXFORGE [APP]
 
-% BROWSER
-FIREFOX [COM]
-BROWSER [COM]
-
-% BROWSER_CAT
-GOOGLE [firefox -remote openurl(http://www.google.com)]
-
-
-% VOXFORGE_CAT
+% COMMAND
 HOME [firefox -remote openurl(http://www.voxforge.org)]
 READ [firefox -remote openurl(http://www.voxforge.org/home/read)]
 LISTEN [firefox -remote openurl(http://www.voxforge.org/home/listen)]

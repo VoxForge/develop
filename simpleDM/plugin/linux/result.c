@@ -127,9 +127,8 @@ get_plugin_info(int opcode, char *buf, int buflen)
  * 
  */
 // to compile: clear && gcc -shared    result.c   -o result.jpi -fPIC
-//             clear && gcc -shared    result.c   -o result.jpi -fPIC && cp /home/kmaclean/bin/julius-4.3.1/plugin/result.jpi /home/kmaclean/VoxForge-dev/Main/AcousticModels/QuickStart/Linux/julius-4.3.1-quickstart-linux/plugin/result.jpi
-
 // to run: clear && ./julius -input mic -C voxshell.jconf -plugindir plugin -quiet
+
 void result_best_str(char *result_str)
 {
   pid_t pid; // process id
@@ -162,7 +161,7 @@ void child(char *result)
                     // - exec wants command in this format
 
   token_idx=0;
-  i=8; // skip "<s> COM "
+  i=8; // skip "<s> APP "
   nxt_token_start=i;
   while ( result[i] != '<' && result[i] != '\0' ) // stops before "</s>"
   {

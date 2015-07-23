@@ -199,8 +199,8 @@ function main ()
   dicfile="$(grammar_prefix).dict"
   make_category_voca(vocafile,termfile,tmpvocafile)
   println("dir $(pwd())")
-  run(`../bin/$mkfa -e1 -fg $rgramfile -fv $tmpvocafile -fo $(dfafile).tmp -fh $headerfile`)
-  run(`../bin/$dfa_minimize $(dfafile).tmp -o $dfafile`)
+  run(`$mkfa -e1 -fg $rgramfile -fv $tmpvocafile -fo $(dfafile).tmp -fh $headerfile`)
+  run(`$dfa_minimize $(dfafile).tmp -o $dfafile`)
 
   vfvoca2dict(vocafile,dic,dicfile)
 

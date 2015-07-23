@@ -32,6 +32,6 @@
 # recognizing non-speech sounds:
 -lv 4000			# level threshold (0-32767)
 
-#-quiet
-#-logfile julius.log
+-quiet
+-logfile julius.log
 # !!!!!!

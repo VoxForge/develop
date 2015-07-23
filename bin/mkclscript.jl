@@ -50,6 +50,10 @@ if length(ARGS) > 0
   if length(ARGS) == 2
     mkclscript(ARGS[1], ARGS[2], "." )
   elseif length(ARGS) == 3
+    if ! isdir(ARGS[3])
+      error("can't find directory: $(ARGS[3])")
+    end
+
     mkclscript(ARGS[1], ARGS[2], ARGS[3] )
   end
 
