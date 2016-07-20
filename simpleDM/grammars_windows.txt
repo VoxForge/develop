@@ -1,1 +1,1 @@
-grammar/windows/firefox/grammar/firefox
+grammar/windows/firefox/firefox
