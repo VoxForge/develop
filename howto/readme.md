@@ -41,7 +41,7 @@ or "call young".
 ###words already in VoxForge dictionary
 You can add any word from the VoxForge dictionary (lexicon/VoxForgeDict.txt) to your
 sample.voca file and recompile the Julius grammar using the included mkdfa.jl
-script [Julia](http://julialang.org/):
+script [Julia (v0.4.7 or v0.5.0)](http://julialang.org/):
 
   $ cd howto
   $ julia ../bin/mkdfa.jl sample
