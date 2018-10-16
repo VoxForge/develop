@@ -17,11 +17,15 @@
 #
 ###############################################################################
 
+if VERSION < v"1.0"  
+   @warn("the VoxForge scripts require version 1.0 and above")
+end
+
 function fixfulllist(in_fulllist, in_monophones0, out_fulllist)
   seen=Dict{String, Int32}()
   in_fulllist_arr=open(readlines, in_fulllist) # automatically closes file handle
   in_monophones0_arr=open(readlines, in_monophones0) # automatically closes file handle
-  new_fulllist_arr=cat(1,in_fulllist_arr, in_monophones0_arr)
+  new_fulllist_arr=cat(in_fulllist_arr, in_monophones0_arr, dims=1)
 
   out_fulllist_fh=open(out_fulllist,"w")
 

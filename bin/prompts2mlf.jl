@@ -16,16 +16,19 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ###############################################################################
+if VERSION < v"1.0"  
+   @warn("the VoxForge scripts require version 1.0 and above")
+end
 
 function prompts2mlf(prompts, mlf) 
   mlf=open(mlf,"w"); 
 
-  write(mlf,"\#\!MLF\!\#\n")
+  write(mlf,"#!MLF!#\n")
   prompts_arr=open(readlines, prompts)    
   for lineln=prompts_arr
     line=chomp(lineln)
     line_array=split(line,r"\s+"); 
-    fname=shift!(line_array)
+    fname=popfirst!(line_array)
     write(mlf,"\"$fname.lab\"\n")
     for word=line_array
         write(mlf,"$word\n")

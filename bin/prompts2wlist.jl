@@ -16,6 +16,11 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ###############################################################################
+using Printf
+
+if VERSION < v"1.0"  
+   @warn("the VoxForge scripts require version 1.0 and above")
+end
 
 function prompts2wlist(prompts, wlist)
   if ! isfile(prompts)
@@ -27,7 +32,7 @@ function prompts2wlist(prompts, wlist)
   for lineln=prompts_fh
     line=chomp(lineln)
     line_array=split(line,r"\s+"); 
-    shift!(line_array)
+    popfirst!(line_array)
     for word=line_array
       wordhash[word]=1
     end
@@ -36,7 +41,7 @@ function prompts2wlist(prompts, wlist)
   wordhash["SENT-START"]=1
 
   wordlist = keys(wordhash) # returns an iterator
-  wlist_arr=Array(String,length(wordhash))
+  wlist_arr=Array{String}(undef,length(wordhash))
   i=1
   for word=wordlist
     wlist_arr[i] = word * "\n"
@@ -45,7 +50,10 @@ function prompts2wlist(prompts, wlist)
   sortedwlist_arr=sort(wlist_arr)
 
   wlist_fh=open(wlist,"w"); 
-  write(wlist_fh,sortedwlist_arr); 
+  #write(wlist_fh, serialize(sortedwlist_arr) ); 
+  for line=sortedwlist_arr
+    write(wlist_fh,line)
+  end
   close(wlist_fh)  
 end
 

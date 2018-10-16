@@ -16,8 +16,10 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ###############################################################################
-
-
+if VERSION < v"1.0"  
+   @warn("the VoxForge scripts require version 1.0 and above")
+end
+ 
 function mktrihed(monophones, triphones, mktri) 
   monophones_arr=open(readlines, monophones)  # automatically closes file handle
 

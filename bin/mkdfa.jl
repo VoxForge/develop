@@ -21,21 +21,25 @@
 #
 ###############################################################################
 
+if VERSION < v"1.0"  
+   @warn("the VoxForge scripts require version 1.0 and above")
+end
+
 function reverse_grammar(rgramfile,gramfile)
   rgramfile_fh=open(rgramfile,"w")
 
   gramfile_arr=open(readlines, gramfile) # automatically closes file handle 
   n=0
   for lineln=gramfile_arr
-    if ! ismatch(r"^[\n|\r]", lineln)
-      line=replace(chomp(lineln), r"#.*", "") # remove line endings & comments
+    if ! occursin(r"^[\n|\r]", lineln)
+      line=replace(chomp(lineln), r"#.*" => "") # remove line endings & comments
       (left, right)=split(line,r"\:")
       category_arr=split(right,r"\s")
       reverse_category_arr=reverse(category_arr)
 
       write(rgramfile_fh, left * ":")
       write(rgramfile_fh, join(reverse_category_arr," ")  )
-      if ismatch(r"\r$", lineln) # windows line ending
+      if occursin(r"\r$", lineln) # windows line ending
         write(rgramfile_fh, "\n\r")
       else
         write(rgramfile_fh, "\n")
@@ -60,12 +64,12 @@ function make_category_voca(vocafile,termfile,tmpvocafile)
   n2=0
   termid=0
   for lineln=vocafile_arr
-    if ismatch(r"\r$", lineln)
+    if occursin(r"\r$", lineln)
       lineend="\r\n" # windows line ending
     else
       lineend="\n" # unix/linux line ending
     end
-    line=replace(chomp(lineln), r"#.*", "") # remove line endings & comments
+    line=replace(chomp(lineln), r"#.*" => "") # remove line endings & comments
 
     m=match(r"^%[ \t]*([A-Za-z0-9_]*)", line)
     if m == nothing
@@ -73,8 +77,8 @@ function make_category_voca(vocafile,termfile,tmpvocafile)
     else
       found=m.captures[1] 
 
-      write(tmpvocafile_fh, "\#$found$(lineend)")
-      write(termfile_fh, "$termid\t$found$(lineend)")
+      write(tmpvocafile_fh, "#$found$lineend")
+      write(termfile_fh, "$termid\t$found$lineend")
 
       termid=termid+1
       n1=n1+1
@@ -95,22 +99,22 @@ function voca2dict(vocafile, dictfile)
   vocafile_arr=open(readlines, vocafile) # automatically closes file handle 
   newid=-1
   for lineln=vocafile_arr
-    if ismatch(r"\r$", lineln)
+    if occursin(r"\r$", lineln)
       lineend="\r\n" # windows line ending
     else
       lineend="\n" # unix/linux line ending
     end
 
-    line=replace(chomp(lineln), r"#.*", "") # remove line endings & comments
-    if ismatch(r"^[\s\t]*$", line) # skip blank lines
+    line=replace(chomp(lineln), r"#.*" => "") # remove line endings & comments
+    if occursin(r"^[\s\t]*$", line) # skip blank lines
       continue
     end
 
-    if ismatch(r"^%", line)
+    if occursin(r"^%", line)
       newid=newid+1
     else
       line_arr=split(line,r"[\s\t]+")
-      name=shift!(line_arr)
+      name=popfirst!(line_arr)
       write(dictfile_fh, "$(newid)\t[$(name)]\t$(join(line_arr," "))$(lineend)")
     end
   end
@@ -121,7 +125,7 @@ function voca2dict(vocafile, dictfile)
 end
 
 
-function main ()
+function main()
   grammar_prefix=ARGS[1] # can include path
   if ! isfile(grammar_prefix * ".grammar")
     error("can't find gramfile file: $(grammar_prefix).grammar")
@@ -134,8 +138,8 @@ function main ()
   end
 
 
-  mkfa= @windows ? "mkfa.exe" : "mkfa"
-  dfa_minimize= @windows ? "dfa_minimize.exe" : "dfa_minimize"
+  mkfa= Sys.iswindows() ? "mkfa.exe" : "mkfa"
+  dfa_minimize= Sys.iswindows() ? "dfa_minimize.exe" : "dfa_minimize"
   workingfolder=mktempdir()
 
   rgramfile= "$(workingfolder)/g$(getpid()).grammar"

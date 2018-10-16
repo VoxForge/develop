@@ -17,6 +17,10 @@
 #
 ###############################################################################
 
+if VERSION < v"1.0"  
+   @warn("the VoxForge scripts require version 1.0 and above")
+end
+
 function mkclscript(monophones0, tree_hed, folder)
   hmmlist=open(tree_hed,"a"); 
 
@@ -24,7 +28,7 @@ function mkclscript(monophones0, tree_hed, folder)
   for i=2:4
     for phoneln=monophones0_arr
       phone=chomp(phoneln)
-      write(hmmlist,"TB 350 \"ST_$phone\_$i\_\" {(\"$phone\",\"*-$phone\+*\",\"$phone\+*\",\"*-$phone\").state[$i]}\n") 
+      write(hmmlist,"TB 350 \"ST_$(phone)_$(i)_\" {(\"$phone\",\"*-$(phone)+*\",\"$(phone)+*\",\"*-$phone\").state[$i]}\n") 
     end
   end
 
